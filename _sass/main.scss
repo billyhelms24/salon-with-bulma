@@ -45,10 +45,10 @@ body {
 }
 
 .hero {
-    background-image: url(img/hero-1.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: url(img/hero-1.jpg) !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
 }
 
 #footerBottomTag {
