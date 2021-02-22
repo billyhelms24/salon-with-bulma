@@ -51,6 +51,10 @@ body {
     background-repeat: no-repeat !important;
 }
 
+.has-custom-background-light {
+    background-color: rgba($primary, 0.7);
+}
+
 #footerBottomTag {
     letter-spacing: normal;
 }
