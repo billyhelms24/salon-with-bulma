@@ -7139,7 +7139,7 @@ body {
   background-repeat: no-repeat !important; }
 
 .has-custom-background-light {
-  background-color: rgba(203, 153, 126, 0.7); }
+  background-color: rgba(203, 153, 126, 0.7) !important; }
 
 #footerBottomTag {
   letter-spacing: normal; }

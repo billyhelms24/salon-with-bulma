@@ -52,7 +52,7 @@ body {
 }
 
 .has-custom-background-light {
-    background-color: rgba($primary, 0.7);
+    background-color: rgba($primary, 0.7) !important;
 }
 
 #footerBottomTag {
