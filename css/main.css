@@ -7133,7 +7133,7 @@ body {
   letter-spacing: 0.15rem; }
 
 .hero {
-  background-image: url("img/hero-1.jpg") !important;
+  background-image: url("../img/hero-1.jpg") !important;
   background-position: center !important;
   background-size: cover !important;
   background-repeat: no-repeat !important; }
