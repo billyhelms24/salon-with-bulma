@@ -1,7 +1,27 @@
+function resizeServiceSquareHeights() {
+    document.querySelectorAll(".service-square").forEach((el) => {
+        el.style.height = el.offsetWidth + "px";
+        el.style.lineHeight = el.offsetWidth + "px";
+    });
+}
+
+document.querySelectorAll(".service-square-text").forEach((el) => {
+    el.addEventListener("mouseover", (event) => {
+        event.target.style.backgroundColor = "rgba(203, 153, 126, .8)";
+    });
+    el.addEventListener("mouseout", (event) => {
+        event.target.style.backgroundColor = "";
+    });
+});
+
 document.addEventListener("DOMContentLoaded", () => {
     // Get all "navbar-burger" elements
     const $navbarBurgers = Array.prototype.slice.call(
         document.querySelectorAll(".navbar-burger"),
+        0
+    );
+    const navItems = Array.prototype.slice.call(
+        document.querySelectorAll(".is-not-tabbed-mobile"),
         0
     );
 
@@ -17,9 +37,15 @@ document.addEventListener("DOMContentLoaded", () => {
                 // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
                 el.classList.toggle("is-active");
                 $target.classList.toggle("is-active");
+
+                navItems.forEach((la) => {
+                    la.classList.toggle("is-tab");
+                });
             });
         });
     }
+
+    resizeServiceSquareHeights();
 
     const showCutModalButton = document
         .getElementById("showCutModal")

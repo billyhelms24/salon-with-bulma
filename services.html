@@ -20,11 +20,11 @@
 
   </head>
 
-  <body class="has-background-primary">
+  <body class="has-background-primary" onresize="resizeServiceSquareHeights()">
 
     <nav class="navbar" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
-        <a class="navbar-item" href="index.html">
+        <a class="navbar-item is-tab is-not-tabbed-mobile" href="index.html">
           <img
             src="img/brand-logo-white-spaced.png"
             width="112"
@@ -47,13 +47,11 @@
 
       <div id="navMenu" class="navbar-menu has-text-centered">
         <div class="navbar-start">
-          <a class="navbar-item is-uppercase is-tab"> Stylists </a>
+          <a class="navbar-item is-uppercase is-tab is-not-tabbed-mobile"> Stylists </a>
 
-          <a class="navbar-item is-uppercase is-tab is-active" href="#"> Services </a>
+          <a class="navbar-item is-uppercase is-tab is-not-tabbed-mobile is-active" href="#"> Services </a>
 
-          <a class="navbar-item is-uppercase is-tab"> About </a>
-
-          <a class="navbar-item is-uppercase is-tab"> Products </a>
+          <a class="navbar-item is-uppercase is-tab is-not-tabbed-mobile"> About </a>
         </div>
 
         <div class="navbar-end is-uppercase">
@@ -508,58 +506,32 @@
     </div>
     
     <div class="columns is-multiline is-gapless">
-      <div class="column is-one-quarter-desktop is-half-tablet">
-        
+      <div class="column is-one-quarter-desktop is-half-tablet service-square service-spacing-column">
+        <figure class="image">
+          <img src="img/cutting-services.png" alt="">
+        </figure>
       </div>
-      <div class="column is-one-quarter-desktop is-half-tablet">
-        <a id="showCutModal" aria-haspopup="true">
-          <figure class="image">
-            <img src="img/cutting-services.png" alt="">
-          </figure>
-        </a>
-      </div>
-      <div class="column is-one-quarter-desktop is-half-tablet">
-        <a id="showColorModal" aria-haspopup="true">
-          <figure class="image">
-            <img src="img/cutting-services.png" alt="">
-          </figure>
-        </a>
-      </div>
-      <div class="column is-one-quarter-desktop is-half-tablet">
-        <a id="showAddColorModal" aria-haspopup="true">
-          <figure class="image">
-            <img src="img/cutting-services.png" alt="">
-          </figure>
-        </a>
-      </div>
-      <div class="column is-one-quarter-desktop is-half-tablet">
-        <a id="showStyleModal" aria-haspopup="true">
-          <figure class="image">
-            <img src="img/cutting-services.png" alt="">
-          </figure>
-        </a>
-      </div>
-      <div class="column is-one-quarter-desktop is-half-tablet">
-        <a id="showPermModal" aria-haspopup="true">
-          <figure class="image">
-            <img src="img/cutting-services.png" alt="">
-          </figure>
-        </a>
-      </div>
-      <div class="column is-one-quarter-desktop is-half-tablet">
-        <a id="showBBModal" aria-haspopup="true">
-          <figure class="image">
-            <img src="img/cutting-services.png" alt="">
-          </figure>
-        </a>
-      </div>
-      <div class="column is-one-quarter-desktop is-half-tablet">
-        <a id="showWaxModal" aria-haspopup="true">
-          <figure class="image">
-            <img src="img/cutting-services.png" alt="">
-          </figure>
-        </a>
-      </div>
+      <a class="column has-text-centered is-one-quarter-desktop is-half-tablet service-square" id="showCutModal">
+        <p class="service-square-text is-size-1">Cutting</p>
+      </a>
+      <a class="column has-text-centered is-one-quarter-desktop is-half-tablet service-square" id="showColorModal">
+        <p class="service-square-text is-size-1">Coloring</p>
+      </a>
+      <a class="column has-text-centered is-one-quarter-desktop is-half-tablet service-square" id="showAddColorModal">
+        <p class="service-square-text is-size-1">Add Color</p>
+      </a>
+      <a class="column has-text-centered is-one-quarter-desktop is-half-tablet service-square" id="showStyleModal">
+        <p class="service-square-text is-size-1">Styling</p>
+      </a>
+      <a class="column has-text-centered is-one-quarter-desktop is-half-tablet service-square" id="showPermModal">
+        <p class="service-square-text is-size-1">Perms</p>
+      </a>
+      <a class="column has-text-centered is-one-quarter-desktop is-half-tablet service-square" id="showBBModal">
+        <p class="service-square-text is-size-1">Blowouts</p>
+      </a>
+      <a class="column has-text-centered is-one-quarter-desktop is-half-tablet is-size-1 service-square" id="showWaxModal">
+        <p class="service-square-text is-size-1">Blowouts</p>
+      </a>
     </div>
 
     <footer class="footer pb-0">
