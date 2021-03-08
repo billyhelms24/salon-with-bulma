@@ -26,8 +26,11 @@ $primary-invert: $pink-invert;
 
 $primary: #cb997e;
 $blue: #cb997e;
+$warning: #fff1e6;
 
 $family-sans-serif: "Lato";
+
+$navbar-item-img-max-height: 3rem;
 
 @import "../node_modules/bulma/bulma";
 // @import "../node_modules/bulma/sass/utilities/initial-variables";
@@ -56,7 +59,7 @@ body {
     box-shadow: none;
 }
 
-.hero {
+#indexHero {
     background-image: url("../img/hero-1.jpg") !important;
     background-position: center center !important;
     background-size: cover !important;
@@ -64,7 +67,7 @@ body {
     background-attachment: fixed;
 }
 
-.hero-body {
+#indexHeroBody {
     border: none !important;
 }
 
