@@ -69,16 +69,18 @@ document.addEventListener("DOMContentLoaded", () => {
             document.getElementById("colorModal").classList.remove("is-active");
         });
 
-    const showAddColorModalButton = document
-        .getElementById("showAddColorModal")
-        .addEventListener("click", function () {
-            document.getElementById("addColorModal").classList.add("is-active");
-        });
-    const hideAddColorModalButton = document
-        .getElementById("hideAddColorModal")
+    const showTreatmentsModalButton = document
+        .getElementById("showTreatmentsModal")
         .addEventListener("click", function () {
             document
-                .getElementById("addColorModal")
+                .getElementById("treatmentsModal")
+                .classList.add("is-active");
+        });
+    const hideTreatmentsModalButton = document
+        .getElementById("hideTreatmentsModal")
+        .addEventListener("click", function () {
+            document
+                .getElementById("treatmentsModal")
                 .classList.remove("is-active");
         });
 
