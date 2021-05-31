@@ -1,18 +1,18 @@
-function resizeServiceSquareHeights() {
-    document.querySelectorAll(".service-square").forEach((el) => {
-        el.style.height = el.offsetWidth + "px";
-        el.style.lineHeight = el.offsetWidth + "px";
-    });
-}
+// function resizeServiceSquareHeights() {
+//     document.querySelectorAll(".service-square").forEach((el) => {
+//         el.style.height = el.offsetWidth + "px";
+//         el.style.lineHeight = el.offsetWidth + "px";
+//     });
+// }
 
-document.querySelectorAll(".service-square-text").forEach((el) => {
-    el.addEventListener("mouseover", (event) => {
-        event.target.style.backgroundColor = "rgba(203, 153, 126, .8)";
-    });
-    el.addEventListener("mouseout", (event) => {
-        event.target.style.backgroundColor = "";
-    });
-});
+// document.querySelectorAll(".service-square-text").forEach((el) => {
+//     el.addEventListener("mouseover", (event) => {
+//         event.target.style.backgroundColor = "rgba(203, 153, 126, .8)";
+//     });
+//     el.addEventListener("mouseout", (event) => {
+//         event.target.style.backgroundColor = "";
+//     });
+// });
 
 document.addEventListener("DOMContentLoaded", () => {
     // Get all "navbar-burger" elements
@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    resizeServiceSquareHeights();
+    /* resizeServiceSquareHeights();
 
     const showCutModalButton = document
         .getElementById("showCutModal")
@@ -126,5 +126,5 @@ document.addEventListener("DOMContentLoaded", () => {
         .getElementById("hideWaxModal")
         .addEventListener("click", function () {
             document.getElementById("waxModal").classList.remove("is-active");
-        });
+        }); */
 });
