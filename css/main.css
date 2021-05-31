@@ -7163,37 +7163,44 @@ body {
       border-bottom-left-radius: 0px;
       border-top-right-radius: 6px; } }
 
-#showCutModal {
-  background-image: url("../img/cutting-services.png") !important;
-  background-size: cover; }
+/* #showCutModal {
+    background-image: url("../img/cutting-services.png") !important;
+    background-size: cover;
+}
 
 #showColorModal {
-  background-image: url("../img/color-services.jpg");
-  background-size: cover; }
+    background-image: url("../img/color-services.jpg");
+    background-size: cover;
+}
 
 #showTreatmentsModal {
-  background-image: url("../img/color-services.jpg");
-  background-size: cover; }
+    background-image: url("../img/color-services.jpg");
+    background-size: cover;
+}
 
 #showStyleModal {
-  background-image: url("../img/color-services.jpg");
-  background-size: cover; }
+    background-image: url("../img/color-services.jpg");
+    background-size: cover;
+}
 
 #showPermModal {
-  background-image: url("../img/color-services.jpg");
-  background-size: cover; }
+    background-image: url("../img/color-services.jpg");
+    background-size: cover;
+}
 
 #showBBModal {
-  background-image: url("../img/color-services.jpg");
-  background-size: cover; }
+    background-image: url("../img/color-services.jpg");
+    background-size: cover;
+}
 
 #showWaxModal {
-  background-image: url("../img/color-services.jpg");
-  background-size: cover; }
+    background-image: url("../img/color-services.jpg");
+    background-size: cover;
+}
 
 .service-square-text {
-  background-color: rgba(0, 0, 0, 0.5); }
-
+    background-color: rgba(0, 0, 0, 0.5);
+} */
 .navbar-burger {
   height: 64px !important;
   width: 64px !important; }
