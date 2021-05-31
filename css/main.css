@@ -7142,7 +7142,7 @@ body {
   box-shadow: none; }
 
 #indexHero {
-  background-image: url("../img/hero-1.jpg") !important;
+  background-image: url("../img/hero.png") !important;
   background-position: center center !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
