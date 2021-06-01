@@ -7133,7 +7133,7 @@ body {
   letter-spacing: 0.15rem; }
 
 .has-custom-background-light {
-  background-color: rgba(203, 153, 126, 0.3) !important; }
+  background-color: rgba(203, 153, 126, 0.5) !important; }
 
 #footerBottomTag {
   letter-spacing: normal; }
@@ -7142,8 +7142,8 @@ body {
   box-shadow: none; }
 
 #indexHero {
-  background-image: url("../img/hero.png") !important;
-  background-position: center center !important;
+  background-image: url("../img/hero.jpg") !important;
+  background-position: center !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
   background-attachment: fixed; }
