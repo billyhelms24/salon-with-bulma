@@ -7163,6 +7163,12 @@ body {
       border-bottom-left-radius: 0px;
       border-top-right-radius: 6px; } }
 
+th {
+  max-width: 20vw; }
+  @media screen and (max-width: 768px) {
+    th {
+      max-width: 100%; } }
+
 /* #showCutModal {
     background-image: url("../img/cutting-services.png") !important;
     background-size: cover;
