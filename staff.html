@@ -1,326 +1,379 @@
 <!DOCTYPE html>
 <html>
-  <head>
 
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Staff | Free To Be Me Salon</title>
-    <link rel="icon" href="img/salon-tab-icon.png">
-    <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css"
-    />
-    <script
-        src="https://kit.fontawesome.com/8bcda90931.js"
-        crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/helpers.css" />
-    <!-- <link rel="stylesheet" href="css/debugger.css"> -->
+<head>
 
-  </head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Staff | Free To Be Me Salon</title>
+  <link rel="icon" href="img/salon-tab-icon.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css" />
+  <script src="https://kit.fontawesome.com/8bcda90931.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/helpers.css" />
+  <!-- <link rel="stylesheet" href="css/debugger.css"> -->
 
-  <body style="background-color: #f9f4f0;">
-    <nav class="navbar" role="navigation" aria-label="main navigation">
-      <div class="navbar-brand">
-        <a class="navbar-item is-tab is-not-tabbed-mobile" href="index.html">
-          <img
-            src="img/logo.png"
-          />
-        </a>
+</head>
 
-        <a
-          role="button"
-          class="navbar-burger"
-          aria-label="menu"
-          aria-expanded="false"
-          data-target="navMenu"
-        >
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </a>
-      </div>
+<body style="background-color: #f9f4f0;">
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item is-tab is-not-tabbed-mobile" href="index.html">
+        <img src="img/logo.png" />
+      </a>
 
-      <div id="navMenu" class="navbar-menu has-text-centered">
-        <div class="navbar-start">
-          <a class="navbar-item is-uppercase is-tab is-not-tabbed-mobile is-active" href="staff.html"> Staff </a>
-
-          <a class="navbar-item is-uppercase is-tab is-not-tabbed-mobile" href="services.html"> Services </a>
-
-          <div class="navbar-item has-dropdown is-hoverable is-uppercase is-tab is-not-tabbed-mobile pb-0">
-            <a class="navbar-link"> About Us </a>
-
-            <div class="navbar-dropdown">
-              <a href="info.html" class="navbar-item"> Our Story </a>
-              <a href="policies.html" class="navbar-item"> Policies </a>
-            </div>
-          </div>
-
-          <a class="navbar-item is-uppercase is-tab is-not-tabbed-mobile" href="giftcards.html"> Gift Cards </a>
-        </div>
-
-        <div class="navbar-end is-uppercase">
-          <div class="navbar-item">
-            <div class="buttons is-centered">
-              <a class="button is-primary is-light" href="https://www.instagram.com/freetobemesalon/">
-                <i class="fab fa-instagram"></i> 
-                &nbsp <strong>Follow Us</strong>
-              </a>
-              <a class="button is-primary" href="https://ftbmsalon.mysalononline.com/booking/">
-                <i class="fas fa-calendar-week"></i>
-                &nbsp <strong>Book Online</strong>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </nav>
-
-    <div class="notification is-primary has-text-centered mb-0">
-      Interested in our <span class="is-italic has-text-weight-bold">Luxury Bridal</span> services? Email us at <a href="mailto:bridal@freetobemesalon.com">bridal@freetobemesalon.com</a>
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
     </div>
 
-    <div class="columns is-mobile mt-3">
-        <div class="column is-1"></div>
-            <div class="column">
+    <div id="navMenu" class="navbar-menu has-text-centered">
+      <div class="navbar-start">
+        <a class="navbar-item is-uppercase is-tab is-not-tabbed-mobile is-active" href="staff.html"> Staff </a>
 
-                <div class="box tile is-ancestor p-0 mb-5">  <!-- Hannah -->
-                  <div class="tile is-2">
-                      <figure class="image">
-                          <img id="rounded" src="img/staff-hannah.jpg" alt="">
-                      </figure>
-                  </div>
-                  <div class="tile is-vertical">
-                      <div class="level is-mobile mb-0">
-                          <div class="level-left">
-                              <p class="m-3 title">Hannah</p>
-                          </div>
-                          <div class="level-right">
-                            <a class="mr-3" href="https://www.instagram.com/hannnahxhair/" target="blank"><i class="fab fa-instagram fa-2x"></i></a>
-                          </div>
-                      </div>
-                      <p class="m-1 ml-3 subtitle is-italic has-text-primary">/ Designer 1 /</p>
-                      <p class="m-3 pb-3">Meet Hannah, one of our skilled hairstylist who joined us in 2022, with a dedication to crafting hair transformations that radiate beauty and confidence. Her blonding techniques range from sun-kissed highlights to bold balayage, ensuring a look that enhances your natural beauty. For those seeking flawless gray coverage, Hannah's seamless solutions provide a youthful and vibrant appearance. Hannah is also a women's cut specialist, offering personalized styles that match your unique preferences. Throughout the salon experience, Hannah prioritizes attentive consultations and a focus on empowering her clients.  Book with Hannah today online or by calling us!</p>
-                  </div>
-                </div>
+        <a class="navbar-item is-uppercase is-tab is-not-tabbed-mobile" href="services.html"> Services </a>
 
-                <div class="box tile is-ancestor p-0 mb-5">  <!-- Rachel -->
-                  <div class="tile is-2">
-                      <figure class="image">
-                          <img id="rounded" src="img/staff-rachel.jpg" alt="">
-                      </figure>
-                  </div>
-                  <div class="tile is-vertical">
-                      <div class="level is-mobile mb-0">
-                          <div class="level-left">
-                              <p class="m-3 title">Rachel</p>
-                          </div>
-                          <div class="level-right">
-                            <a class="mr-3" href="https://www.instagram.com/hairbyracheel/" target="blank"><i class="fab fa-instagram fa-2x"></i></a>
-                          </div>
-                      </div>
-                      <p class="m-1 ml-3 subtitle is-italic has-text-primary">/ Designer 1 /</p>
-                      <p class="m-3 pb-3">Meet Rachel, a talented hair stylist with a passion for transforming hair into works of art. Specializing in curly hair and blonding, Rachel has a true flair for creating beautiful lived-in color looks that enhance her clients' natural beauty. Her outgoing and energetic personality ensures that every salon visit is not only a hair transformation but also an enjoyable experience. Rachel's passion for hair extends to exploring the world of fashion colors, making her the perfect stylist to help you achieve your dream look!</p>
-                  </div>
-                </div>
+        <div class="navbar-item has-dropdown is-hoverable is-uppercase is-tab is-not-tabbed-mobile pb-0">
+          <a class="navbar-link"> About Us </a>
 
-                <div class="box tile is-ancestor p-0 mb-5">  <!-- Lilly -->
-                  <div class="tile is-2">
-                      <figure class="image">
-                          <img id="rounded" src="img/staff-lilly.jpg" alt="">
-                      </figure>
-                  </div>
-                  <div class="tile is-vertical">
-                      <div class="level is-mobile mb-0">
-                          <div class="level-left">
-                              <p class="m-3 title">Lilly</p>
-                          </div>
-                          <div class="level-right">
-                            <a class="mr-3" href="https://www.instagram.com/beautyxhall/" target="blank"><i class="fab fa-instagram fa-2x"></i></a>
-                          </div>
-                      </div>
-                      <p class="m-1 ml-3 subtitle is-italic has-text-primary">/ Designer 2 /</p>
-                      <p class="m-3 pb-3">Meet Lilly, a talented stylist who is passionate about enhancing natural beauty and helping clients fall in love with their hair. Lilly specializes in creating stunning styles for curly hair and loves teaching her clients how to maintain and style their locks. In addition to her expertise with curls, Lilly also offers precision men's cuts. She wants to be your go-to stylist for all your hair needs and is dedicated to building lifelong connections with her clients. With her expert skills and warm personality, Lilly is the perfect choice for anyone looking to achieve their best hair yet.</p>
-                  </div>
-                </div>
+          <div class="navbar-dropdown">
+            <a href="info.html" class="navbar-item"> Our Story </a>
+            <a href="policies.html" class="navbar-item"> Policies </a>
+          </div>
+        </div>
 
-                <div class="box tile is-ancestor p-0 mb-5">  <!-- Zoey -->
-                  <div class="tile is-2">
-                      <figure class="image">
-                          <img id="rounded" src="img/staff-zoey.jpg" alt="">
-                      </figure>
-                  </div>
-                  <div class="tile is-vertical">
-                      <div class="level is-mobile mb-0">
-                          <div class="level-left">
-                              <p class="m-3 title">Zoey</p>
-                          </div>
-                          <div class="level-right">
-                            <a class="mr-3" href="https://www.instagram.com/zoeyaddisonhair/" target="blank"><i class="fab fa-instagram fa-2x"></i></a>
-                          </div>
-                      </div>
-                      <p class="m-1 ml-3 subtitle is-italic has-text-primary">/ Designer 2 /</p>
-                      <p class="m-3 pb-3">Zoey is passionate about educating her clients throughout the entire proccess, detailing product information, styling tips, and the ins and out of services. As one of our extension artists, Zoey offers multiple luxury extension sytems, including handtied extensions. Clients will find Zoey to be fun, casual, and inviting with an immense respect for detail. Take a look at her instagram where you can find a portoflio of her recent work showcasing her love for blondes, lived-in color, extensions, and more.</p>
-                  </div>
-                </div>
+        <a class="navbar-item is-uppercase is-tab is-not-tabbed-mobile" href="giftcards.html"> Gift Cards </a>
+      </div>
 
-                <div class="box tile is-ancestor p-0 mb-5">  <!-- Alyssa -->
-                  <div class="tile is-2">
-                      <figure class="image">
-                          <img id="rounded" src="img/staff-alyssa.jpg" alt="">
-                      </figure>
-                  </div>
-                  <div class="tile is-vertical">
-                      <div class="level is-mobile mb-0">
-                          <div class="level-left">
-                              <p class="m-3 title">Alyssa</p>
-                          </div>
-                          <div class="level-right">
-                            <a class="mr-3" href="https://www.instagram.com/hairbylysssss/" target="blank"><i class="fab fa-instagram fa-2x"></i></a>
-                          </div>
-                      </div>
-                      <p class="m-1 ml-3 subtitle is-italic has-text-primary">/ Designer 2 /</p>
-                      <p class="m-3 pb-3">Meet Alyssa, a skilled hair stylist who has been a part of our salon since 2020. Her topmost priority is to make each client feel confident and beautiful. Alyssa specializes in blonding services and creating lived-in, natural-looking color that is tailored to suit each individual client. She is well-versed in the use of high-quality hair products from brands like Kevin Murphy, Davines, and Lanza, to ensure that your hair is always in its best condition. With her bubbly personality and love for hair, Alyssa is a great choice for those looking for a personalized hair experience.</p>
-                  </div>
-                </div>
+      <div class="navbar-end is-uppercase">
+        <div class="navbar-item">
+          <div class="buttons is-centered">
+            <a class="button is-primary is-light" href="https://www.instagram.com/freetobemesalon/">
+              <i class="fab fa-instagram"></i>
+              &nbsp <strong>Follow Us</strong>
+            </a>
+            <a class="button is-primary" href="https://ftbmdublin.mysalononline.com/booking/">
+              <i class="fas fa-calendar-week"></i>
+              &nbsp <strong>Book Online</strong>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
 
-                <div class="box tile is-ancestor p-0 mb-5">  <!-- Grace -->
-                  <div class="tile is-2">
-                      <figure class="image">
-                          <img id="rounded" src="img/staff-grace.jpg" alt="">
-                      </figure>
-                  </div>
-                  <div class="tile is-vertical">
-                      <div class="level is-mobile mb-0">
-                          <div class="level-left">
-                              <p class="m-3 title">Grace</p>
-                          </div>
-                          <div class="level-right">
-                            <a class="mr-3" href="https://www.instagram.com/hairbygraace/" target="blank"><i class="fab fa-instagram fa-2x"></i></a>
-                          </div>
-                      </div>
-                      <p class="m-1 ml-3 subtitle is-italic has-text-primary">/ Designer 2 /</p>
-                      <p class="m-3 pb-3">Grace's exceptional skills and easy going nature makes each clint feel welcomed and relaxed during their services. Joining our team in 2020 Grace brings an eagerness to learn and further grow her skill sets and develop her relationships here at <span class="is-italic has-text-weight-bold">Free To Be Me</span>. Grace has an education in multiple luxury product lines such as Matrix, All-Nutrient, Davines & Kevin Murphy. Her priority in each service is to ensure every client get the best service possible by using detailed techniques, truly listening to the client's requests, and customizing a look as unique as the client. </p>
-                  </div>
-                </div>
+  <div class="notification is-primary has-text-centered mb-0">
+    Interested in our <span class="is-italic has-text-weight-bold">Luxury Bridal</span> services? Email us at <a
+      href="mailto:bridal@freetobemesalon.com">bridal@freetobemesalon.com</a>
+  </div>
 
-                <div class="box tile is-ancestor p-0 mb-5">  <!-- Brandi -->
-                  <div class="tile is-2">
-                      <figure class="image">
-                          <img id="rounded" src="img/staff-brandi.jpg" alt="">
-                      </figure>
-                  </div>
-                  <div class="tile is-vertical">
-                      <div class="level is-mobile mb-0">
-                          <div class="level-left">
-                              <p class="m-3 title">Brandi</p>
-                          </div>
-                          <div class="level-right">
-                              <a class="mr-3" href="https://www.instagram.com/brandi.freetobemesalon/" target="blank"><i class="fab fa-instagram fa-2x"></i></a>
-                          </div>
-                      </div>
-                      <p class="m-1 ml-3 subtitle is-italic has-text-primary">/ Designer 2 /</p>
-                      <p class="m-3 pb-0">Providing over 10 years in the industry, Brandi offers a surplus of experience and techniques to every guest. Brandis relaxed demeanor and inviting nature makes every guest feel welcomed and cared for during their services. With her experience Brandi has had expert training in numerous luxury product lines such as Brazilian Blowout, Lanza professional color, and Davines products. Brandi has a passion for providing clients with unique looks and excels in short & texture cuts and razor cuts. Her warm smile, genuine love for this industry and people provide her clients with a rewarding, relaxing and professional experience.</p>
-                  </div>
-                </div>
+  <div class="columns is-mobile mt-3">
+    <div class="column is-1"></div>
+    <div class="column">
 
-                <div class="box tile is-ancestor p-0 mb-5">  <!-- Malory -->
-                  <div class="tile is-2">
-                      <figure class="image">
-                          <img id="rounded" src="img/staff-malory.jpg" alt="">
-                      </figure>
-                  </div>
-                  <div class="tile is-vertical">
-                      <div class="level is-mobile mb-0">
-                          <div class="level-left">
-                              <p class="m-3 title">Malory</p>
-                          </div>
-                          <div class="level-right">
-                              <a class="mr-3" href="https://www.instagram.com/malory.freetobeme/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
-                          </div>
-                      </div>
-                      <p class="m-1 ml-3 subtitle is-italic has-text-primary">/ Director /</p>
-                      <p class="m-3 pb-3">Malory is an experienced and personable stylist with a priority on educating her clients. 
-                        Malory loves meeting new people and making lasting connections. In April of 2013, Malory joined our team and has been a valuable asset ever since. 
-                        She has a passion for men's hair cutting, short haircuts, and razor cuts. She is also educated in luxury services and high end products such as Brazilian Blowout and All-Nutrient Color. 
-                        Malory excels at helping her client's service last at home with proper haircare tips and tricks.</p>
-                  </div>
-                </div>
+      <div class="box tile is-ancestor p-0 mb-5"> <!-- Hannah -->
+        <div class="tile is-2">
+          <figure class="image">
+            <img id="rounded" src="img/staff-hannah.jpg" alt="">
+          </figure>
+        </div>
+        <div class="tile is-vertical">
+          <div class="level is-mobile mb-0">
+            <div class="level-left">
+              <p class="m-3 title">Hannah</p>
+            </div>
+            <div class="level-right">
+              <a class="mr-3" href="https://www.instagram.com/hannnahxhair/" target="blank"><i
+                  class="fab fa-instagram fa-2x"></i></a>
+            </div>
+          </div>
+          <p class="m-1 ml-3 subtitle is-italic has-text-primary">/ Designer 1 /</p>
+          <p class="m-3 pb-3">Meet Hannah, one of our skilled hairstylist who joined us in 2022, with a dedication to
+            crafting hair transformations that radiate beauty and confidence. Her blonding techniques range from
+            sun-kissed highlights to bold balayage, ensuring a look that enhances your natural beauty. For those seeking
+            flawless gray coverage, Hannah's seamless solutions provide a youthful and vibrant appearance. Hannah is
+            also a women's cut specialist, offering personalized styles that match your unique preferences. Throughout
+            the salon experience, Hannah prioritizes attentive consultations and a focus on empowering her clients. Book
+            with Hannah today online or by calling us!</p>
+        </div>
+      </div>
 
-                <div class="box tile is-ancestor p-0 mb-5">  <!-- Brittny -->
-                  <div class="tile is-2">
-                      <figure class="image">
-                          <img id="rounded" src="img/staff-brittny.jpg" alt="">
-                      </figure>
-                  </div>
-                  <div class="tile is-vertical">
-                      <div class="level is-mobile mb-0">
-                          <div class="level-left">
-                              <p class="m-3 title">Brittny</p>
-                          </div>
-                          <div class="level-right">
-                              <a class="mr-3" href="https://www.instagram.com/brittny.freetobemesalon/" target="blank"><i class="fab fa-instagram fa-2x"></i></a>
-                          </div>
-                      </div>
-                      <p class="m-1 ml-3 subtitle is-italic has-text-primary">/ Director /</p>
-                      <p class="m-3 pb-0">With over 16 years in the industry and being a member of the <span class="is-italic has-text-weight-bold">Free To Be Me</span> staff since 2014, Brittny offers a plethora of advanced techniques and skills to her clientele. 
-                        Brittny specializes in providing luxury services to her clients such as advanced hair cutting tecniques, Brazilian Blowouts, select extension services, color corrections, and gray blending. 
-                        From elegant evening styles to clean men’s cuts and everything in between, Brittny applies cutting edge techniques to provide her clients with a professional, memorable experience. 
-                        Brittnys number one priority is to customize her client's experience, making them feel welcome and heard. Allowing them to leave feeling their best.</p>
-                  </div>
-                </div>
+      <div class="box tile is-ancestor p-0 mb-5"> <!-- Rachel -->
+        <div class="tile is-2">
+          <figure class="image">
+            <img id="rounded" src="img/staff-rachel.jpg" alt="">
+          </figure>
+        </div>
+        <div class="tile is-vertical">
+          <div class="level is-mobile mb-0">
+            <div class="level-left">
+              <p class="m-3 title">Rachel</p>
+            </div>
+            <div class="level-right">
+              <a class="mr-3" href="https://www.instagram.com/hairbyracheel/" target="blank"><i
+                  class="fab fa-instagram fa-2x"></i></a>
+            </div>
+          </div>
+          <p class="m-1 ml-3 subtitle is-italic has-text-primary">/ Designer 1 /</p>
+          <p class="m-3 pb-3">Meet Rachel, a talented hair stylist with a passion for transforming hair into works of
+            art. Specializing in curly hair and blonding, Rachel has a true flair for creating beautiful lived-in color
+            looks that enhance her clients' natural beauty. Her outgoing and energetic personality ensures that every
+            salon visit is not only a hair transformation but also an enjoyable experience. Rachel's passion for hair
+            extends to exploring the world of fashion colors, making her the perfect stylist to help you achieve your
+            dream look!</p>
+        </div>
+      </div>
 
-                <div class="box tile is-ancestor p-0 mb-5"> <!-- Kailee -->
-                  <div class="tile is-2">
-                      <figure class="image">
-                          <img id="rounded" src="img/staff-kailee.jpg" alt="">
-                      </figure>
-                  </div>
-                  <div class="tile is-vertical">
-                      <!-- <p class="m-3 title">Kailee &nbsp<a href="https://www.instagram.com/kailee.freetobeme/"><i class="fab fa-instagram"></i></a></p> -->
-                      <div class="level is-mobile mb-0">
-                          <div class="level-left">
-                              <p class="m-3 title">Kailee</p>
-                          </div>
-                          <div class="level-right">
-                              <a class="mr-3" href="https://www.instagram.com/kailee.freetobeme/" target="blank"><i class="fab fa-instagram fa-2x"></i></a>
-                          </div>
-                      </div>
-                      <p class="m-1 ml-3 subtitle is-italic has-text-primary">/ Director /</p>
-                      <p class="m-3 pb-5">As one of our original stylists, Kailee has nearly 10 years of experience and education in advanced techniques and services. 
-                                          Kailee is certified in Aqua extension services and is able to provide multiple luxury extension methods, including sew-in. Additionaly, Kailee is certified and trained in Brazilian Blowout services, as well as products. 
-                                          She offers exceptional color services and loves creating high-end color looks that help clients enhance their natural beauty. She aspires for her clients to feel confident in their own skin. </p>
-                  </div>
-                </div>
+      <div class="box tile is-ancestor p-0 mb-5"> <!-- Lilly -->
+        <div class="tile is-2">
+          <figure class="image">
+            <img id="rounded" src="img/staff-lilly.jpg" alt="">
+          </figure>
+        </div>
+        <div class="tile is-vertical">
+          <div class="level is-mobile mb-0">
+            <div class="level-left">
+              <p class="m-3 title">Lilly</p>
+            </div>
+            <div class="level-right">
+              <a class="mr-3" href="https://www.instagram.com/beautyxhall/" target="blank"><i
+                  class="fab fa-instagram fa-2x"></i></a>
+            </div>
+          </div>
+          <p class="m-1 ml-3 subtitle is-italic has-text-primary">/ Designer 2 /</p>
+          <p class="m-3 pb-3">Meet Lilly, a talented stylist who is passionate about enhancing natural beauty and
+            helping clients fall in love with their hair. Lilly specializes in creating stunning styles for curly hair
+            and loves teaching her clients how to maintain and style their locks. In addition to her expertise with
+            curls, Lilly also offers precision men's cuts. She wants to be your go-to stylist for all your hair needs
+            and is dedicated to building lifelong connections with her clients. With her expert skills and warm
+            personality, Lilly is the perfect choice for anyone looking to achieve their best hair yet.</p>
+        </div>
+      </div>
 
-                <div class="box tile is-ancestor p-0 mb-5">  <!-- Ronee -->
-                        <div class="tile is-2">
-                            <figure class="image">
-                                <img id="rounded" src="img/staff-ronee.jpg" alt="">
-                            </figure>
-                        </div>
-                        <div class="tile is-vertical">
-                            <div class="level is-mobile mb-0">
-                                <div class="level-left">
-                                    <p class="m-3 title">Ronee</p>
-                                </div>
-                                <div class="level-right">
-                                    <a class="mr-3" href="https://www.linkedin.com/in/roneeburnside" target="_blank"><i class="fab fa-linkedin-in fa-2x"></i></a>
-                                    <a class="mr-3" href="https://www.instagram.com/ronee.freetobemesalon/" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
-                                </div>
-                            </div>
-                            <p class="m-1 ml-3 subtitle is-italic has-text-primary">/ Director + Founder /</p>
-                            <p class="m-3 pb-3">As the visonary and founder of <span class="is-italic has-text-weight-bold">Free To Be Me</span>, Ronee has created a salon with an emphasis on fellowship and client experience. 
-                                                She has sought to provide a space where clients can feel confident and empowered while embracing their God-given individuality.  
-                                                Ronee provides nearly 30 years of experience in the industry and is always striving to further each stylist's education behind the chair. 
-                                                As a stylist, Ronee exclusively offers high-end luxury color services, cuts, and smoothing services to her clients. 
-                                                Her attention to detail and inviting personality helps every one of her clients leave fulfilled and cared for.</p>
-                        </div>
-                </div>
+      <div class="box tile is-ancestor p-0 mb-5"> <!-- Zoey -->
+        <div class="tile is-2">
+          <figure class="image">
+            <img id="rounded" src="img/staff-zoey.jpg" alt="">
+          </figure>
+        </div>
+        <div class="tile is-vertical">
+          <div class="level is-mobile mb-0">
+            <div class="level-left">
+              <p class="m-3 title">Zoey</p>
+            </div>
+            <div class="level-right">
+              <a class="mr-3" href="https://www.instagram.com/zoeyaddisonhair/" target="blank"><i
+                  class="fab fa-instagram fa-2x"></i></a>
+            </div>
+          </div>
+          <p class="m-1 ml-3 subtitle is-italic has-text-primary">/ Designer 2 /</p>
+          <p class="m-3 pb-3">Zoey is passionate about educating her clients throughout the entire proccess, detailing
+            product information, styling tips, and the ins and out of services. As one of our extension artists, Zoey
+            offers multiple luxury extension sytems, including handtied extensions. Clients will find Zoey to be fun,
+            casual, and inviting with an immense respect for detail. Take a look at her instagram where you can find a
+            portoflio of her recent work showcasing her love for blondes, lived-in color, extensions, and more.</p>
+        </div>
+      </div>
 
-                <!-- <div class="box tile is-ancestor p-0 mb-5">
+      <div class="box tile is-ancestor p-0 mb-5"> <!-- Alyssa -->
+        <div class="tile is-2">
+          <figure class="image">
+            <img id="rounded" src="img/staff-alyssa.jpg" alt="">
+          </figure>
+        </div>
+        <div class="tile is-vertical">
+          <div class="level is-mobile mb-0">
+            <div class="level-left">
+              <p class="m-3 title">Alyssa</p>
+            </div>
+            <div class="level-right">
+              <a class="mr-3" href="https://www.instagram.com/hairbylysssss/" target="blank"><i
+                  class="fab fa-instagram fa-2x"></i></a>
+            </div>
+          </div>
+          <p class="m-1 ml-3 subtitle is-italic has-text-primary">/ Designer 2 /</p>
+          <p class="m-3 pb-3">Meet Alyssa, a skilled hair stylist who has been a part of our salon since 2020. Her
+            topmost priority is to make each client feel confident and beautiful. Alyssa specializes in blonding
+            services and creating lived-in, natural-looking color that is tailored to suit each individual client. She
+            is well-versed in the use of high-quality hair products from brands like Kevin Murphy, Davines, and Lanza,
+            to ensure that your hair is always in its best condition. With her bubbly personality and love for hair,
+            Alyssa is a great choice for those looking for a personalized hair experience.</p>
+        </div>
+      </div>
+
+      <div class="box tile is-ancestor p-0 mb-5"> <!-- Grace -->
+        <div class="tile is-2">
+          <figure class="image">
+            <img id="rounded" src="img/staff-grace.jpg" alt="">
+          </figure>
+        </div>
+        <div class="tile is-vertical">
+          <div class="level is-mobile mb-0">
+            <div class="level-left">
+              <p class="m-3 title">Grace</p>
+            </div>
+            <div class="level-right">
+              <a class="mr-3" href="https://www.instagram.com/hairbygraace/" target="blank"><i
+                  class="fab fa-instagram fa-2x"></i></a>
+            </div>
+          </div>
+          <p class="m-1 ml-3 subtitle is-italic has-text-primary">/ Designer 2 /</p>
+          <p class="m-3 pb-3">Grace's exceptional skills and easy going nature makes each clint feel welcomed and
+            relaxed during their services. Joining our team in 2020 Grace brings an eagerness to learn and further grow
+            her skill sets and develop her relationships here at <span class="is-italic has-text-weight-bold">Free To Be
+              Me</span>. Grace has an education in multiple luxury product lines such as Matrix, All-Nutrient, Davines &
+            Kevin Murphy. Her priority in each service is to ensure every client get the best service possible by using
+            detailed techniques, truly listening to the client's requests, and customizing a look as unique as the
+            client. </p>
+        </div>
+      </div>
+
+      <div class="box tile is-ancestor p-0 mb-5"> <!-- Brandi -->
+        <div class="tile is-2">
+          <figure class="image">
+            <img id="rounded" src="img/staff-brandi.jpg" alt="">
+          </figure>
+        </div>
+        <div class="tile is-vertical">
+          <div class="level is-mobile mb-0">
+            <div class="level-left">
+              <p class="m-3 title">Brandi</p>
+            </div>
+            <div class="level-right">
+              <a class="mr-3" href="https://www.instagram.com/brandi.freetobemesalon/" target="blank"><i
+                  class="fab fa-instagram fa-2x"></i></a>
+            </div>
+          </div>
+          <p class="m-1 ml-3 subtitle is-italic has-text-primary">/ Designer 2 /</p>
+          <p class="m-3 pb-0">Providing over 10 years in the industry, Brandi offers a surplus of experience and
+            techniques to every guest. Brandis relaxed demeanor and inviting nature makes every guest feel welcomed and
+            cared for during their services. With her experience Brandi has had expert training in numerous luxury
+            product lines such as Brazilian Blowout, Lanza professional color, and Davines products. Brandi has a
+            passion for providing clients with unique looks and excels in short & texture cuts and razor cuts. Her warm
+            smile, genuine love for this industry and people provide her clients with a rewarding, relaxing and
+            professional experience.</p>
+        </div>
+      </div>
+
+      <div class="box tile is-ancestor p-0 mb-5"> <!-- Malory -->
+        <div class="tile is-2">
+          <figure class="image">
+            <img id="rounded" src="img/staff-malory.jpg" alt="">
+          </figure>
+        </div>
+        <div class="tile is-vertical">
+          <div class="level is-mobile mb-0">
+            <div class="level-left">
+              <p class="m-3 title">Malory</p>
+            </div>
+            <div class="level-right">
+              <a class="mr-3" href="https://www.instagram.com/malory.freetobeme/" target="_blank"><i
+                  class="fab fa-instagram fa-2x"></i></a>
+            </div>
+          </div>
+          <p class="m-1 ml-3 subtitle is-italic has-text-primary">/ Director /</p>
+          <p class="m-3 pb-3">Malory is an experienced and personable stylist with a priority on educating her clients.
+            Malory loves meeting new people and making lasting connections. In April of 2013, Malory joined our team and
+            has been a valuable asset ever since.
+            She has a passion for men's hair cutting, short haircuts, and razor cuts. She is also educated in luxury
+            services and high end products such as Brazilian Blowout and All-Nutrient Color.
+            Malory excels at helping her client's service last at home with proper haircare tips and tricks.</p>
+        </div>
+      </div>
+
+      <div class="box tile is-ancestor p-0 mb-5"> <!-- Brittny -->
+        <div class="tile is-2">
+          <figure class="image">
+            <img id="rounded" src="img/staff-brittny.jpg" alt="">
+          </figure>
+        </div>
+        <div class="tile is-vertical">
+          <div class="level is-mobile mb-0">
+            <div class="level-left">
+              <p class="m-3 title">Brittny</p>
+            </div>
+            <div class="level-right">
+              <a class="mr-3" href="https://www.instagram.com/brittny.freetobemesalon/" target="blank"><i
+                  class="fab fa-instagram fa-2x"></i></a>
+            </div>
+          </div>
+          <p class="m-1 ml-3 subtitle is-italic has-text-primary">/ Director /</p>
+          <p class="m-3 pb-0">With over 16 years in the industry and being a member of the <span
+              class="is-italic has-text-weight-bold">Free To Be Me</span> staff since 2014, Brittny offers a plethora of
+            advanced techniques and skills to her clientele.
+            Brittny specializes in providing luxury services to her clients such as advanced hair cutting tecniques,
+            Brazilian Blowouts, select extension services, color corrections, and gray blending.
+            From elegant evening styles to clean men’s cuts and everything in between, Brittny applies cutting edge
+            techniques to provide her clients with a professional, memorable experience.
+            Brittnys number one priority is to customize her client's experience, making them feel welcome and heard.
+            Allowing them to leave feeling their best.</p>
+        </div>
+      </div>
+
+      <div class="box tile is-ancestor p-0 mb-5"> <!-- Kailee -->
+        <div class="tile is-2">
+          <figure class="image">
+            <img id="rounded" src="img/staff-kailee.jpg" alt="">
+          </figure>
+        </div>
+        <div class="tile is-vertical">
+          <!-- <p class="m-3 title">Kailee &nbsp<a href="https://www.instagram.com/kailee.freetobeme/"><i class="fab fa-instagram"></i></a></p> -->
+          <div class="level is-mobile mb-0">
+            <div class="level-left">
+              <p class="m-3 title">Kailee</p>
+            </div>
+            <div class="level-right">
+              <a class="mr-3" href="https://www.instagram.com/kailee.freetobeme/" target="blank"><i
+                  class="fab fa-instagram fa-2x"></i></a>
+            </div>
+          </div>
+          <p class="m-1 ml-3 subtitle is-italic has-text-primary">/ Director /</p>
+          <p class="m-3 pb-5">As one of our original stylists, Kailee has nearly 10 years of experience and education in
+            advanced techniques and services.
+            Kailee is certified in Aqua extension services and is able to provide multiple luxury extension methods,
+            including sew-in. Additionaly, Kailee is certified and trained in Brazilian Blowout services, as well as
+            products.
+            She offers exceptional color services and loves creating high-end color looks that help clients enhance
+            their natural beauty. She aspires for her clients to feel confident in their own skin. </p>
+        </div>
+      </div>
+
+      <div class="box tile is-ancestor p-0 mb-5"> <!-- Ronee -->
+        <div class="tile is-2">
+          <figure class="image">
+            <img id="rounded" src="img/staff-ronee.jpg" alt="">
+          </figure>
+        </div>
+        <div class="tile is-vertical">
+          <div class="level is-mobile mb-0">
+            <div class="level-left">
+              <p class="m-3 title">Ronee</p>
+            </div>
+            <div class="level-right">
+              <a class="mr-3" href="https://www.linkedin.com/in/roneeburnside" target="_blank"><i
+                  class="fab fa-linkedin-in fa-2x"></i></a>
+              <a class="mr-3" href="https://www.instagram.com/ronee.freetobemesalon/" target="_blank"><i
+                  class="fab fa-instagram fa-2x"></i></a>
+            </div>
+          </div>
+          <p class="m-1 ml-3 subtitle is-italic has-text-primary">/ Director + Founder /</p>
+          <p class="m-3 pb-3">As the visonary and founder of <span class="is-italic has-text-weight-bold">Free To Be
+              Me</span>, Ronee has created a salon with an emphasis on fellowship and client experience.
+            She has sought to provide a space where clients can feel confident and empowered while embracing their
+            God-given individuality.
+            Ronee provides nearly 30 years of experience in the industry and is always striving to further each
+            stylist's education behind the chair.
+            As a stylist, Ronee exclusively offers high-end luxury color services, cuts, and smoothing services to her
+            clients.
+            Her attention to detail and inviting personality helps every one of her clients leave fulfilled and cared
+            for.</p>
+        </div>
+      </div>
+
+      <!-- <div class="box tile is-ancestor p-0 mb-5">
                   <div class="tile is-2">
                       <figure class="image">
                           <img id="rounded" src="img/staff-lani.jpg" alt="">
@@ -340,144 +393,147 @@
                   </div>
                 </div> -->
 
-                <div class="box tile is-ancestor p-0 mb-5">  <!-- Billy -->
-                  <div class="tile is-2">
-                      <figure class="image">
-                          <img id="rounded" src="img/staff-billy.jpg" alt="">
-                      </figure>
-                  </div>
-                  <div class="tile is-vertical">
-                      <div class="level is-mobile mb-0">
-                          <div class="level-left">
-                              <p class="m-3 title">Billy</p>
-                          </div>
-                          <div class="level-right">
-                            <a class="mr-3" href="https://github.com/billyhelms24" target="blank">
-                              <i class="fab fa-github fa-2x"></i>
-                            </a>
-                          </div>
-                      </div>
-                      <p class="m-1 ml-3 subtitle is-italic has-text-primary">/ Director of Operations /</p>
-                      <p class="m-3 pb-3">
-                        Joining our salon in 2020 as Director of Operations, Billy brings with him 7+ years of management and computer science experience.
-                        Seeking to modernize the salon, Billy has overseen the creation of our new website alongside our company's rebranding.
-                        His charismatic personality makes him a joy for any client to interact with and is sure to leave them smiling.
-                      </p>
-                  </div>
-                </div>
-
-            </div>
-        <div class="column is-1"></div>
-    </div>
-
-    <footer class="footer pb-0">
-      <div class="content">
-        <div class="columns">
-          <div class="column is-offset-1">
-            <h3 class="mb-6">HOURS</h3>
-            <div class="level is-mobile mb-1">
-              <div class="level-left">
-                <p><strong>Mon</strong></p>
-              </div>
-              <div class="level-right">
-                <p><em>8:30a-7:30p</em></p>
-              </div>
-            </div>
-            <div class="level is-mobile mb-1">
-              <div class="level-left">
-                <p><strong>Tues</strong></p>
-              </div>
-              <div class="level-right">
-                <p><em>8:30a-7:30p</em></p>
-              </div>
-            </div>
-            <div class="level is-mobile mb-1">
-              <div class="level-left">
-                <p><strong>Wed</strong></p>
-              </div>
-              <div class="level-right">
-                <p><em>8:30a-5:00p</em></p>
-              </div>
-            </div>
-            <div class="level is-mobile mb-1">
-              <div class="level-left">
-                <p><strong>Thurs</strong></p>
-              </div>
-              <div class="level-right">
-                <p><em>8:30a-7:30p</em></p>
-              </div>
-            </div>
-            <div class="level is-mobile mb-1">
-              <div class="level-left">
-                <p><strong>Fri</strong></p>
-              </div>
-              <div class="level-right">
-                <p><em>9:00a-7:00p</em></p>
-              </div>
-            </div>
-            <div class="level is-mobile mb-1">
-              <div class="level-left">
-                <p><strong>Sat</strong></p>
-              </div>
-              <div class="level-right">
-                <p><em>8:00a-4:00p</em></p>
-              </div>
-            </div>
-            <div class="level is-mobile mb-1">
-              <div class="level-left">
-                <p><strong>Sun</strong></p>
-              </div>
-              <div class="level-right">
-                <p><em>Closed</em></p>
-              </div>
-            </div>
-          </div>
-          <div class="column is-1"></div>
-          <div class="column">
-            <h3 class="mb-6 block">CONTACT</h3>
-            <p class=""><strong>Phone:</strong></br> <a href="tel:614-529-8650"><em>614.529.8650</em></a></p>
-            <p class=""><strong>Email:</strong></br> <a href="mailto:booking@freetobemesalon.com"><em>booking@freetobemesalon.com</em></a></p>
-            <p class=""><strong>Location:</strong></br> <a href="https://goo.gl/maps/6P6Xmxqb5Njcxtgc9" target="_blank"><em>4994 Cosgray Rd.
-              Hilliard OH, 43026</em></a></p>
-          </div>
-          <div class="column is-1"></div>
-          <div class="column">
-            <h3 class="mb-6">CAREERS</h3>
-            <p>If you are interested in joining the Free To Be Me family, we would love to hear from you! Please send us a copy of your resume <a href="mailto:admin@freetobemesalon.com">here</a>.</p>
-          </div>
-          <div class="column is-1"></div>
+      <div class="box tile is-ancestor p-0 mb-5"> <!-- Billy -->
+        <div class="tile is-2">
+          <figure class="image">
+            <img id="rounded" src="img/staff-billy.jpg" alt="">
+          </figure>
         </div>
-
-        <div class="columns mt-6" id="footerBottomTag">
-          <div class="column is-1"></div>
-          <div class="column">
-            <div class="level">
-              <div class="level-item">
-                <p class="is-size-7">
-                  created by <a href="https://github.com/billyhelms24">Billy Helms</a>
-                </p>
-              </div>
-              <div class="level-item is-size-7">
-                &copy copyright 2021 - Free To Be Me Salon LLC, All Rights Reserved
-              </div>
-              <div class="level-item">
-                <a class="" href="https://bulma.io">
-                  <img
-                    src="img/made-with-bulma-black.png"
-                    alt="Made with Bulma"
-                    style="height: 24px"
-                  />
-                </a>
-              </div>
+        <div class="tile is-vertical">
+          <div class="level is-mobile mb-0">
+            <div class="level-left">
+              <p class="m-3 title">Billy</p>
+            </div>
+            <div class="level-right">
+              <a class="mr-3" href="https://github.com/billyhelms24" target="blank">
+                <i class="fab fa-github fa-2x"></i>
+              </a>
             </div>
           </div>
-          <div class="column is-1"></div>
-          </div>
+          <p class="m-1 ml-3 subtitle is-italic has-text-primary">/ Director of Operations /</p>
+          <p class="m-3 pb-3">
+            Joining our salon in 2020 as Director of Operations, Billy brings with him 7+ years of management and
+            computer science experience.
+            Seeking to modernize the salon, Billy has overseen the creation of our new website alongside our company's
+            rebranding.
+            His charismatic personality makes him a joy for any client to interact with and is sure to leave them
+            smiling.
+          </p>
         </div>
       </div>
-    </footer>
 
-    <script type="text/javascript" src="lib/main.js"></script>
+    </div>
+    <div class="column is-1"></div>
+  </div>
 
-  </body>
+  <footer class="footer pb-0">
+    <div class="content">
+      <div class="columns">
+        <div class="column is-offset-1">
+          <h3 class="mb-6">HOURS</h3>
+          <div class="level is-mobile mb-1">
+            <div class="level-left">
+              <p><strong>Mon</strong></p>
+            </div>
+            <div class="level-right">
+              <p><em>8:30a-7:30p</em></p>
+            </div>
+          </div>
+          <div class="level is-mobile mb-1">
+            <div class="level-left">
+              <p><strong>Tues</strong></p>
+            </div>
+            <div class="level-right">
+              <p><em>8:30a-7:30p</em></p>
+            </div>
+          </div>
+          <div class="level is-mobile mb-1">
+            <div class="level-left">
+              <p><strong>Wed</strong></p>
+            </div>
+            <div class="level-right">
+              <p><em>8:30a-5:00p</em></p>
+            </div>
+          </div>
+          <div class="level is-mobile mb-1">
+            <div class="level-left">
+              <p><strong>Thurs</strong></p>
+            </div>
+            <div class="level-right">
+              <p><em>8:30a-7:30p</em></p>
+            </div>
+          </div>
+          <div class="level is-mobile mb-1">
+            <div class="level-left">
+              <p><strong>Fri</strong></p>
+            </div>
+            <div class="level-right">
+              <p><em>9:00a-7:00p</em></p>
+            </div>
+          </div>
+          <div class="level is-mobile mb-1">
+            <div class="level-left">
+              <p><strong>Sat</strong></p>
+            </div>
+            <div class="level-right">
+              <p><em>8:00a-4:00p</em></p>
+            </div>
+          </div>
+          <div class="level is-mobile mb-1">
+            <div class="level-left">
+              <p><strong>Sun</strong></p>
+            </div>
+            <div class="level-right">
+              <p><em>Closed</em></p>
+            </div>
+          </div>
+        </div>
+        <div class="column is-1"></div>
+        <div class="column">
+          <h3 class="mb-6 block">CONTACT</h3>
+          <p class=""><strong>Phone:</strong></br> <a href="tel:614-529-8650"><em>614.529.8650</em></a></p>
+          <p class=""><strong>Email:</strong></br> <a
+              href="mailto:booking@freetobemesalon.com"><em>booking@freetobemesalon.com</em></a></p>
+          <p class=""><strong>Location:</strong></br> <a href="https://goo.gl/maps/6P6Xmxqb5Njcxtgc9"
+              target="_blank"><em>4994 Cosgray Rd.
+                Hilliard OH, 43026</em></a></p>
+        </div>
+        <div class="column is-1"></div>
+        <div class="column">
+          <h3 class="mb-6">CAREERS</h3>
+          <p>If you are interested in joining the Free To Be Me family, we would love to hear from you! Please send us a
+            copy of your resume <a href="mailto:admin@freetobemesalon.com">here</a>.</p>
+        </div>
+        <div class="column is-1"></div>
+      </div>
+
+      <div class="columns mt-6" id="footerBottomTag">
+        <div class="column is-1"></div>
+        <div class="column">
+          <div class="level">
+            <div class="level-item">
+              <p class="is-size-7">
+                created by <a href="https://github.com/billyhelms24">Billy Helms</a>
+              </p>
+            </div>
+            <div class="level-item is-size-7">
+              &copy copyright 2021 - Free To Be Me Salon LLC, All Rights Reserved
+            </div>
+            <div class="level-item">
+              <a class="" href="https://bulma.io">
+                <img src="img/made-with-bulma-black.png" alt="Made with Bulma" style="height: 24px" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="column is-1"></div>
+      </div>
+    </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="lib/main.js"></script>
+
+</body>
+
 </html>
