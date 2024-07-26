@@ -7133,7 +7133,7 @@ body {
   letter-spacing: 0.15rem; }
 
 .has-custom-background-light {
-  background-color: rgba(203, 153, 126, 0.5) !important; }
+  background-color: rgba(203, 153, 126, 0.7) !important; }
 
 #footerBottomTag {
   letter-spacing: normal; }
@@ -7146,10 +7146,23 @@ body {
   background-position: center !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
-  background-attachment: fixed; }
+  background-attachment: fixed;}
 
 #indexHeroBody {
-  border: none !important; }
+  border: none !important;}
+
+#indexHeroLogo {
+  display: block;
+  padding:40px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
 
 .card {
   border-radius: 6px !important; }
